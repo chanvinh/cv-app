@@ -16,9 +16,9 @@ function App() {
         <Flex>
           <Typography>Ung Chan Vinh</Typography>
           <Typography type='level2'>Front-End Developer</Typography>
-          <ListBox label='Phone:' margin='8px 0px'><Typography type='level4'>0703337127</Typography></ListBox>
-          <ListBox label='Email:' margin='8px 0px'><Typography type='level4'>chanvinh41@gmail.com</Typography></ListBox>
-          <ListBox label='Address:' margin='8px 0px'><Typography type='level4'>74 Tan Hung Street, District 5, Ho Chi Minh City</Typography></ListBox>
+          <ListBox label='Phone:' margin='8px 0px'><Typography type='level4' padding='3px 20px 0px 0px'>0703337127</Typography></ListBox>
+          <ListBox label='Email:' margin='8px 0px'><Typography type='level4' padding='3px 20px 0px 0px' >chanvinh41@gmail.com</Typography></ListBox>
+          <ListBox label='Address:' margin='8px 0px'><Typography type='level4' padding='3px 20px 0px 0px'>74 Tan Hung Street, District 5, Ho Chi Minh City</Typography></ListBox>
         </Flex>
       </Grid>
       <Title label='GENERAL OBJECTIVE' />

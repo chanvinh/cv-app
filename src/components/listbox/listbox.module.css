@@ -6,3 +6,13 @@
 .listbox > div:first-child {
   width: 20%;
 }
+
+.listbox > div:last-child {
+  width: 80%;
+}
+
+@media (max-width: 475px) {
+  .listbox {
+    display: inline-block;
+  }
+}

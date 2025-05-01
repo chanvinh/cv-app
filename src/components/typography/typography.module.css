@@ -1,0 +1,25 @@
+.level1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #222;
+  word-break: break-all;
+  text-decoration: underline;
+}
+
+.level2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+.level3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #222;
+}
+
+.level4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+}

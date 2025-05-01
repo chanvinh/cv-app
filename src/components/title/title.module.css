@@ -1,0 +1,15 @@
+.title {
+  padding: 10px 20px;
+  display: block;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: 5px;
+  height: 1px;
+  border-bottom: 1px solid #404040;
+}

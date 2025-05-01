@@ -1,0 +1,12 @@
+.container {
+  padding: 20px;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0px auto;
+    border: 1px solid #000;
+  }
+}

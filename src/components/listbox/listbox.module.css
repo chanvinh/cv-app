@@ -1,0 +1,8 @@
+.listbox {
+  display: flex;
+  gap: 20px;
+}
+
+.listbox > div:first-child {
+  width: 20%;
+}

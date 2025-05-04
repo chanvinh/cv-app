@@ -195,23 +195,30 @@ function App() {
       <Sperator />
       <Title label='SKILLS' />
       <Grid padding='10px 20px'>
-        <Typography type='level3'>Programming Language:</Typography>
+        <Typography type='level3'>Programming Languages:</Typography>
         <Flex>
-          <Typography type='level4' padding='3px 20px 0px 0px' >JavaScript</Typography>
+          <Typography type='level4' padding='3px 20px 0px 0px' >JavaScript, TypeScript, HTML5, CSS3</Typography>
         </Flex>
       </Grid>
       <Sperator />
       <Grid padding='10px 20px'>
-        <Typography type='level3'>Framework:</Typography>
+        <Typography type='level3'>Frameworks:</Typography>
         <Flex>
-          <Typography type='level4' padding='3px 20px 0px 0px' >ReactJs, NextJs</Typography>
+          <Typography type='level4' padding='3px 20px 0px 0px' >ReactJS (React-Hook, Redux, Redux-Toolkit), NextJs</Typography>
         </Flex>
       </Grid>
       <Sperator />
       <Grid padding='10px 20px'>
-        <Typography type='level3'>UI Framework:</Typography>
+        <Typography type='level3'>UI Frameworks:</Typography>
         <Flex>
           <Typography type='level4' padding='3px 20px 0px 0px' >Boostrap, Material UI</Typography>
+        </Flex>
+      </Grid>
+      <Sperator />
+      <Grid padding='10px 20px'>
+        <Typography type='level3'>Source Version Control:</Typography>
+        <Flex>
+          <Typography type='level4' padding='3px 20px 0px 0px' >Git, Gitlab</Typography>
         </Flex>
       </Grid>
       <Sperator />

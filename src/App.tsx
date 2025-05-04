@@ -11,7 +11,7 @@ import Typography from './components/typography/typography';
 function App() {
   return (
     <Container>
-      <Grid padding='30px'>
+      <Grid padding='10px 30px'>
         <div className='background'></div>
         <Flex>
           <Typography>Ung Chan Vinh</Typography>
@@ -22,9 +22,18 @@ function App() {
         </Flex>
       </Grid>
       <Title label='GENERAL OBJECTIVE' />
-      <Typography type='level4' padding='10px 20px'>With over 3 years of experience building applications using languages such as <b>HTML, SASS, JavaScript, TypeScript,
-        ReactJs, and Bootstrap</b>, my goal is to apply my skills and knowledge in a professional environment to develop
-        outstanding products that provide users with an optimized experience.</Typography>
+      <Typography type='level4' padding='5px 20px 0px'>With over 3 years of experience building applications using languages such as <b>HTML, SASS, JavaScript, TypeScript,
+        ReactJs, and Bootstrap</b>.
+      </Typography>
+      <Typography type='level4' padding='5px 20px 0px'>
+        My goal is to apply my skills and knowledge in a professional environment to develop outstanding products that provide users with an optimized experience.
+      </Typography>
+      <Typography type='level4' padding='5px 20px 0px'>
+        Quick learning and researching new and hot trends’ technologies.
+      </Typography>
+      <Typography type='level4' padding='5px 20px 0px'>
+        Good at time management, problem-solving, and working under high pressure with an active attitude.
+      </Typography>
       <Title label='EDUCATION' />
       <Grid padding='10px 20px'>
         <Typography type='level4'>2018 - 04/2022</Typography>
@@ -223,7 +232,7 @@ function App() {
       </Grid>
       <Sperator />
       <Title label='HOBBIES' />
-      <Typography padding='10px 20px' type='level4'>Play sports and participate in activities both inside and outside the company.</Typography>
+      <Typography padding='10px' type='level4'>Play sports and participate in activities both inside and outside the company.</Typography>
     </Container>
   );
 }

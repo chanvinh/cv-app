@@ -37,7 +37,7 @@ function App() {
       <Section title="GENERAL OBJECTIVE">
         <Typography type="level4" padding="5px 20px 0px">
           With over 3.5 years of experience building applications using languages
-          such as 
+          such as{" "}
           <b>HTML, SASS, JavaScript, TypeScript, ReactJs, NextJs, VueJs</b>.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">

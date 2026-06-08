@@ -15,7 +15,7 @@ function App() {
         <div className="background"></div>
         <Flex>
           <Typography>Ung Chan Vinh</Typography>
-          <Typography type="level2">Middle Software Engineer</Typography>
+          <Typography type="level2">Software Developer</Typography>
           <ListBox label="Phone:" margin="8px 0px">
             <Typography type="level4" padding="3px 20px 0px 0px">
               0703337127

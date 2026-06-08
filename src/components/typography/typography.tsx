@@ -8,8 +8,26 @@ interface PropsTypography {
   children?: React.ReactNode;
 }
 
+const PADDING_CLASSES: Record<string, string> = {
+  "3px 20px 0px 0px": styles.padContent,
+  "5px 20px 0px": styles.padSection,
+  "10px": styles.padHobby,
+};
+
 const Typography = ({ type = 'level1', children, padding, decoration }: Readonly<PropsTypography>) => {
-  return <div className={styles[type]} style={{ padding: padding, textDecoration: decoration }}> {children} </div>;
+  const padClass = padding ? PADDING_CLASSES[padding] : undefined;
+
+  return (
+    <div
+      className={[styles[type], padClass].filter(Boolean).join(" ")}
+      style={{
+        textDecoration: decoration,
+        ...(!padClass && padding ? { padding } : {}),
+      }}
+    >
+      {children}
+    </div>
+  );
 };
 
 export default Typography;

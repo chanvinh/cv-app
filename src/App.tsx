@@ -11,7 +11,7 @@ import Typography from "./components/typography/typography";
 function App() {
   return (
     <Container>
-      <Grid padding="10px 30px">
+      <Grid variant="header">
         <div className="background"></div>
         <Flex>
           <Typography>Ung Chan Vinh</Typography>
@@ -55,7 +55,7 @@ function App() {
       </Section>
 
       <Section title="EDUCATION">
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level4">2018 - 04/2022</Typography>
           <Flex>
             <Typography type="level3" padding="3px 20px 0px 0px">
@@ -72,7 +72,7 @@ function App() {
       </Section>
 
       <Section title="EXPERIENCES">
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">04/2026 - 07/2026</Typography>
           <Flex>
             <Typography
@@ -118,7 +118,7 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">04/2026 - 07/2026</Typography>
           <Flex>
             <Typography
@@ -129,7 +129,7 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              PubCare System (Back End + API)
+              PubCare System (Full Stack)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> PHP, Laravel, JQuery, MySQL, Docker, Docker
@@ -164,7 +164,7 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">01/2026 - 03/2026</Typography>
           <Flex>
             <Typography
@@ -208,7 +208,7 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">05/2025 - 01/2026</Typography>
           <Flex>
             <Typography
@@ -256,7 +256,7 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">
             02/2025 — 05/2025 & 03/2026 — 04/2026
           </Typography>
@@ -299,7 +299,7 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">01/2025 - 03/2025</Typography>
           <Flex>
             <Typography
@@ -342,7 +342,7 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">05/2022 - 12/2024</Typography>
           <Flex>
             <Typography
@@ -393,11 +393,10 @@ function App() {
             </Typography>
           </Flex>
         </Grid>
-        <Sperator />
       </Section>
 
-      <Section title="CERTIFICATION" separator>
-        <Grid padding="10px 20px">
+      <Section title="CERTIFICATION">
+        <Grid>
           <Typography type="level3">2022:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
@@ -409,7 +408,7 @@ function App() {
       </Section>
 
       <Section title="SKILLS">
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">Programming Languages:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
@@ -418,7 +417,7 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">Frameworks:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
@@ -428,7 +427,7 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">Database:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
@@ -437,7 +436,7 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
           <Typography type="level3">UI Frameworks:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
@@ -446,7 +445,16 @@ function App() {
           </Flex>
         </Grid>
         <Sperator />
-        <Grid padding="10px 20px">
+        <Grid>
+          <Typography type="level3">Tools:</Typography>
+          <Flex>
+            <Typography type="level4" padding="3px 20px 0px 0px">
+              Docker, Docker Compose
+            </Typography>
+          </Flex>
+        </Grid>
+        <Sperator />
+        <Grid>
           <Typography type="level3">Source Version Control:</Typography>
           <Flex>
             <Typography type="level4" padding="3px 20px 0px 0px">
@@ -454,7 +462,6 @@ function App() {
             </Typography>
           </Flex>
         </Grid>
-        <Sperator />
       </Section>
 
       <Section title="HOBBIES">

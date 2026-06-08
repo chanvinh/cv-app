@@ -1,18 +1,40 @@
 .listbox {
   display: flex;
   gap: 20px;
+  align-items: flex-start;
 }
 
 .listbox > div:first-child {
-  width: 20%;
+  flex-shrink: 0;
+  min-width: 70px;
 }
 
 .listbox > div:last-child {
-  width: 80%;
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
-@media (max-width: 475px) {
+/* Mobile */
+@media (max-width: 575px) {
   .listbox {
-    display: inline-block;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .listbox > div:first-child {
+    min-width: unset;
+  }
+}
+
+/* Tablet */
+@media (min-width: 576px) and (max-width: 991px) {
+  .listbox {
+    gap: 12px;
+  }
+
+  .listbox > div:first-child {
+    min-width: 60px;
   }
 }

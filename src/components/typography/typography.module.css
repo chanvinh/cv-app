@@ -22,3 +22,82 @@
   font-weight: 500;
   color: #222;
 }
+
+.padContent {
+  padding: 3px 20px 0 0;
+}
+
+.padSection {
+  padding: 5px 20px 0;
+}
+
+.padHobby {
+  padding: 10px;
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+  .level1 {
+    font-size: 22px;
+  }
+
+  .level2 {
+    font-size: 15px;
+  }
+
+  .level3 {
+    font-size: 14px;
+  }
+
+  .level4 {
+    font-size: 14px;
+    line-height: 1.55;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  .padContent {
+    padding: 3px 0 0;
+  }
+
+  .padSection {
+    padding: 5px 0 0;
+  }
+
+  .padHobby {
+    padding: 10px 0;
+  }
+}
+
+/* Tablet */
+@media (min-width: 576px) and (max-width: 991px) {
+  .level1 {
+    font-size: 26px;
+  }
+
+  .level2 {
+    font-size: 17px;
+  }
+
+  .level3 {
+    font-size: 14px;
+  }
+
+  .level4 {
+    font-size: 14px;
+    line-height: 1.5;
+    word-break: break-word;
+  }
+
+  .padContent {
+    padding: 3px 12px 0 0;
+  }
+
+  .padSection {
+    padding: 5px 12px 0;
+  }
+
+  .padHobby {
+    padding: 10px 4px;
+  }
+}

@@ -1,11 +1,25 @@
 .container {
-  padding: 20px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+  box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
+/* Tablet */
+@media (min-width: 576px) and (max-width: 991px) {
   .container {
-    width: 768px;
-    margin: 0px auto;
+    max-width: var(--cv-max-width);
+    padding: 16px 20px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .container {
+    width: var(--cv-max-width);
+    max-width: var(--cv-max-width);
+    padding: 20px;
     border: 1px solid #000;
   }
 }

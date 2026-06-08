@@ -1,3 +1,10 @@
 .section {
   display: block;
 }
+
+/* Mobile */
+@media (max-width: 575px) {
+  .section {
+    padding: 6px 14px 18px;
+  }
+}

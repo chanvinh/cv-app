@@ -2,4 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  min-width: 0;
+  width: 100%;
+}
+
+.flex > * {
+  max-width: 100%;
 }

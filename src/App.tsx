@@ -36,8 +36,8 @@ function App() {
 
       <Section title="GENERAL OBJECTIVE">
         <Typography type="level4" padding="5px 20px 0px">
-          With over 3.5 years of experience building applications using languages
-          such as{" "}
+          With over 3.5 years of experience building applications using
+          languages such as{" "}
           <b>HTML, SASS, JavaScript, TypeScript, ReactJs, NextJs, VueJs</b>.
         </Typography>
         <Typography type="level4" padding="5px 20px 0px">
@@ -83,7 +83,7 @@ function App() {
               ISB Vietnam - IVC
             </Typography>
             <Typography type="level3" padding="3px 20px 0px 0px">
-              FIS System (Full Stack)
+              FIS System (Full Stack) (Support Team)
             </Typography>
             <Typography type="level4" padding="3px 20px 0px 0px">
               <b>Tech stack:</b> ASP .NET framework CORE 8, VueJS, SQL Server,
@@ -119,7 +119,7 @@ function App() {
         </Grid>
         <Sperator />
         <Grid padding="10px 20px">
-          <Typography type="level3">02/2026 - 04/2026</Typography>
+          <Typography type="level3">04/2026 - 07/2026</Typography>
           <Flex>
             <Typography
               type="level3"
@@ -257,7 +257,9 @@ function App() {
         </Grid>
         <Sperator />
         <Grid padding="10px 20px">
-          <Typography type="level3">02/2025 - 05/2025</Typography>
+          <Typography type="level3">
+            02/2025 — 05/2025 & 03/2026 — 04/2026
+          </Typography>
           <Flex>
             <Typography
               type="level3"
